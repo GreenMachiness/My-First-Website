@@ -1,0 +1,19 @@
+Create an HTML website with the following content:
+The top 3 cities you've lived in
+A header with "Top 3 cities I've called home"
+A bullet point list with the name of the 3 cities
+A paragraph describing the cities
+The top 3 cities you want to visit
+A header with "Top 3 cities I want to visit"
+A bullet point list with the name of the 3 cities
+A paragraph describing the cities
+The HTML should look like the attached photo:
+Save your code by creating a git commit
+git add .
+git commit -m "added top cities"
+Add Metadata by add a title to label the website's tab in the web browser
+Save your code by creating a git commit
+git add .
+git commit -m "added website title"
+image.png
+ 
