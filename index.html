@@ -60,7 +60,18 @@
         I want to go to London to visit Big Ben.
     </p> 
         <br>
-        
+        <form action="https://my-api/comment" method="POST" name="comment-section">
+            <label for="Display-name">Display Name:</label><br>
+            <input type="text" id="Display-name" name="Display-name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email">
+            <br>
+            <br>
+            <textarea name="message" rows="10" cols="30">
+                default input text goes in here!
+            </textarea>
+            <input type="submit" value="Submit">
+        </form>
     </body>
     <footer>
         <p>© https://github.com/GreenMachiness All rights reserved.</p>
