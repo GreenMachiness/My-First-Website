@@ -1,19 +1,26 @@
-Create an HTML website with the following content:
-The top 3 cities you've lived in
-A header with "Top 3 cities I've called home"
-A bullet point list with the name of the 3 cities
-A paragraph describing the cities
-The top 3 cities you want to visit
-A header with "Top 3 cities I want to visit"
-A bullet point list with the name of the 3 cities
-A paragraph describing the cities
-The HTML should look like the attached photo:
+Add semantic HTML by doing the following:
+Add a Header with the title of your site
+Add a Nav Bar with the following links: (the link will not go anywhere for now)
+Home
+Blog
+About Me
+Make each of the locations its own article instead of a list. Each location article should have it's own descriptions. To save time fill the description with lorum ipsum dummy text.
+Use this site to generate text - https://www.lipsum.com/
+Add a footer with a link to your github account
+Save your code by creating a git commit (you know how by now)
+Part 4
+Add some rich media to your page
+Find a video on youtube and add it for your #1 locations
+Find images online for the other locations
+Give your website a logo!
+Go to https://app.logo.com to generate a logo
+Use your dev tools to copy the SVG html for the logo you want
+Add the HTML SVG code to your website’s header
 Save your code by creating a git commit
-git add .
-git commit -m "added top cities"
-Add Metadata by add a title to label the website's tab in the web browser
+Add a form to your website for people to submit comments about your articles (you don’t need to make a functional comment section, just the form)
+Have them provide the following:
+A display name
+Email
+If they want to be notified when someone replies to their post
+The actual comment text
 Save your code by creating a git commit
-git add .
-git commit -m "added website title"
-image.png
- 
