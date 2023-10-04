@@ -1,0 +1,34 @@
+.header {
+    grid-area: header;
+    justify-self:center;
+}
+nav    {
+    grid-area: sidebar;
+    justify-self:center;
+}
+.art1    {
+    grid-area: art1;
+    justify-self: end;
+}
+.art2  {
+    grid-area: art2;
+    justify-self: end;
+}
+.footer {
+    grid-area:footer;
+}
+body  {
+    display:grid;
+    grid-template-columns: 50px 1fr 1fr 1fr;
+    grid-template-rows:auto;
+    grid-template-areas:
+    ". . header ."
+    "sidebar . . ."
+    ". . art1 art2 "
+    "footer footer footer footer";
+
+}
+body{
+    background-color:ghostwhite;
+    color:black
+}
