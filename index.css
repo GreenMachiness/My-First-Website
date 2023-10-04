@@ -3,16 +3,18 @@
     justify-self:center;
 }
 nav    {
+    background-color: chocolate;
     grid-area: sidebar;
     justify-self:center;
+    font-family: cursive;
 }
-.art1    {
-    grid-area: art1;
+nav:hover{
+    background-color: blue;
+  }
+.content    {
+    grid-area:content;
     justify-self: end;
-}
-.art2  {
-    grid-area: art2;
-    justify-self: end;
+    font-family: cursive;
 }
 .footer {
     grid-area:footer;
@@ -24,11 +26,11 @@ body  {
     grid-template-areas:
     ". . header ."
     "sidebar . . ."
-    ". . art1 art2 "
+    ". . . content "
     "footer footer footer footer";
 
 }
 body{
-    background-color:ghostwhite;
-    color:black
+    background-color:salmon;
+    color:blanchedalmond
 }
